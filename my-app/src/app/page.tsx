@@ -1,9 +1,8 @@
 import { cardData } from "./utils/constants/cards";
-import { imagesPNG } from "./utils/constants/images";
 
 export default function Home() {
   return (
-      <div className="flex gap-2 flex-wrap justify-between mx-3">
+      <div className="flex gap-2 flex-wrap xl:justify-between mx-3 justify-center">
         {
           cardData.map((card, index: number) => (
             <div className="max-w-sm rounded overflow-hidden shadow-lg" key={index}>
